@@ -1,0 +1,118 @@
+.listitem {
+    width: 100%;
+    padding: .5em 1em;
+    margin: 0;
+    /* position: relative; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.voise-pr {
+    display: flex;
+    justify-content: center;
+    /* color: rgba(255, 255, 255, 0.377); */
+}
+
+.category-pr {
+    font-size: clamp(1.375rem, 0.232rem + 5.71vw, 1.75rem);
+}
+
+.item-paragraph {
+    font-size: clamp(0.75rem, 0.464rem + 1.43vw, 1rem);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.356);
+    color: #fff;
+}
+
+.menu {
+    cursor: pointer;
+    min-width: 20px;
+    min-height: 20px;
+    position: relative;
+}
+
+.menu::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+.menu::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.item-main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.164);
+    position: relative;
+}
+
+.item-main-content p {
+    font-size: clamp(0.75rem, 0.321rem + 2.14vw, 1.125rem);
+    margin: .2em 5px 0 5px;
+    text-align: center;
+}
+
+
+.pos-abs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.MuiTabs-flexContainer {
+    justify-content: space-around;
+
+}
+
+/* //// */
+
+.list-item-1 .item-main-content .menu {
+    /* background-color: aqua; */
+}
+
+/*  */
+.active .menu::before {
+    height: 0;
+}
+
+.item-info-element {
+    display: none;
+}
+
+.active~.item-info-element {
+    display: block;
+}
+
+@media (max-width: 930px) {}
+
+/* .MuiBox-root {
+    padding: 0;
+} */
+.css-19kzrtu {
+    all: initial;
+    color: #fff;
+}

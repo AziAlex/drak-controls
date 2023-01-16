@@ -1,0 +1,12 @@
+.header {
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: clamp(1.5rem, -0.024rem + 7.62vw, 2rem);
+}

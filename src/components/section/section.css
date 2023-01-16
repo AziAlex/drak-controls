@@ -1,0 +1,19 @@
+.section {
+    width: 900px;
+}
+
+.section ul {
+    background-color: rgba(26, 33, 54, 0.452);
+    color: #fff;
+    font-size: 1.7em;
+    border-radius: 1em;
+    padding-bottom: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 930px) {
+    .section {
+        width: 100%;
+    }
+    
+}

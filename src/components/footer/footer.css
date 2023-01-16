@@ -1,0 +1,16 @@
+.footer  {
+  background-color: rgb(34, 41, 54);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+.footer h2 {
+    padding: 1em;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.329);
+    text-align: center;
+}
