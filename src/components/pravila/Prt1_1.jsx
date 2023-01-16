@@ -80,6 +80,12 @@ export default function Prt1_1(props) {
               {props.Description4}
               <br />
               {props.Description5}
+              <br />
+              {props.Description6}
+              <br />
+              {props.Description7}
+              <br />
+              {props.Description8}
             </span>
           </TabPanel>
           <TabPanel style={{ textAlign: "start" }} value={value} index={1}>
