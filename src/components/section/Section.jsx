@@ -12,6 +12,7 @@ function Section2() {
                 <Prt1_1
                     regularNr="1.1"
                     regularName="Создавать грубые помехи общению."
+                    tab3=""
                     Description="1)"
                     Description1="2)"
                     Description2="3)"
@@ -23,6 +24,7 @@ function Section2() {
                 <Prt1_1
                     regularNr="1.2"
                     regularName="Использование сторонних программ для  трансляций звуков через микрофон."
+                    tab3=""
                     Description=""
                     voiseDescription=""
                     chatDescription=""
